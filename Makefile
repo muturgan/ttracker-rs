@@ -15,7 +15,7 @@ race:
 	cd src; go run -race .
 
 ## default build
-build:	
+build:
 	cd src; go build -o ../build/${APP_NAME} .
 
 ## production build (strip the debugging information)
